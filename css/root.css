@@ -1,0 +1,13 @@
+: :root{
+    --font-size:18px;
+    --font-weight:500;
+    --text-color : #30444E
+    --font-family : "Poppins", sans-serif;
+    --link-color: #1F2E35CC
+}
+
+.dark {
+    --text-color:#e0e0e0;
+    --background-color:#181818;
+    --link-color:#e0e0e0;
+}

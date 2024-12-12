@@ -1,5 +1,4 @@
-@import "./normalize.css";
-@import "./fonts.css";
+@import "../../css/global.css";
 
 /* Global start */
 
@@ -47,9 +46,7 @@ main {
   flex-grow: 1;
 }
 
-#active:hover {
-  color: white;
-  opacity: 100%;
+#active {
   border-top: 3px solid #ffa155;
   opacity: 1;
 }
@@ -103,7 +100,71 @@ main {
 
 /* Header end */
 
-/* Main start */
+/* Privacy start */
+.privacy {
+  padding-top: 96px;
+  margin-bottom: 72px;
+  background-image: url(../../images/privacy-right.svg),
+    url(../../images/privacy-left-top.svg);
+  background-repeat: no-repeat;
+  background-position: right 205px top 50px, left 205px top 50px;
+}
+.privacy-title {
+  font-weight: 600px;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 8px;
+}
+
+.privacy-about {
+  opacity: 60%;
+}
+.stories {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../../images/privacy-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: #ecf8f9;
+}
+.stories-container {
+  width: 100%;
+  font-weight: 830px;
+  padding-left: 221px;
+  padding-right: 118px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 96px;
+  margin-bottom: 96px;
+}
+.stories-title {
+  width: 100%;
+  max-width: 841px;
+  padding-top: 96px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.stories-title1 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.stories-description {
+  max-width: 829px;
+  margin-bottom: 24px;
+}
+.stories-description-2 {
+  width: 100%;
+  max-width: 841px;
+}
+/* Privacy end */
+
 /* MAin end */
 
 /* Footer start */
@@ -114,8 +175,8 @@ main {
   background-color: #666dff;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../images/updates-left-top.svg),
-    url(../images/updates-right.svg);
+  background-image: url(../../images/updates-left-top.svg),
+    url(../../images/updates-right.svg);
   background-repeat: no-repeat;
   background-position: top left, right;
   margin-top: 96px;

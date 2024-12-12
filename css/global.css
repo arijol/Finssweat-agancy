@@ -33,21 +33,24 @@ h1 {
 }
 
 body {
+  height: 100%;
+  background-color: var(--background-color);
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  font-family: "Poppins", sans-serif;
+  font-size: var(--font-size);
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #232536;
+  /* color: #232536; */
 }
 
 main {
   flex-grow: 1;
 }
 
-#active:hover {
+#active {
   color: white;
   opacity: 100%;
   border-top: 3px solid #ffa155;
